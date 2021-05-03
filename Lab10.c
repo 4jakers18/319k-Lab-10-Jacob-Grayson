@@ -23,7 +23,7 @@
 // Slide pot pin 1 connected to ground
 // Slide pot pin 2 connected to PD2/AIN5
 // Slide pot pin 3 connected to +3.3V 
-// fire button connected to PE0
+// 
 // special weapon fire button connected to PE1
 // 8*R resistor DAC bit 0 on PB0 (least significant bit)
 // 4*R resistor DAC bit 1 on PB1

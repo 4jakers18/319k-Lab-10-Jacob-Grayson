@@ -5,7 +5,7 @@
 <h2>Tool Versions:</h2>
 IDE-Version: µVision V5.33.0.0
 Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: Jacob Tomczeszyn, N/A, LIC=----
+License Information: Grayson Drinkard, student, LIC=----
  
 Tool Versions:
 Toolchain:       MDK-Lite  Version: 5.33.0.0
@@ -21,29 +21,51 @@ Target DLL:      lmidk-agdi.dll V???
 Dialog DLL:      TCM.DLL V1.48.0.0
  
 <h2>Project:</h2>
-C:\Keil_v5\EE319KwareSpring2021\Lab10_EE319K\319k-Lab-10-Jacob-Grayson\Lab10.uvprojx
+C:\Users\Grayson Drinkard\Documents\GitHub\319k-Lab-10-Jacob-Grayson\Lab10.uvprojx
 Project File Date:  05/02/2021
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Rebuild target 'Lab10'
-assembling random.s...
-assembling startup.s...
-compiling CortexM.c...
-compiling Lab10.c...
-compiling DAC.c...
-compiling ADC.c...
+Build target 'Lab10'
 compiling Timer0.c...
-compiling Timer1.c...
-compiling Sound.c...
-assembling Print.s...
-compiling SSD1306.c...
+Timer0.c(26): error:  #5: cannot open source input file "../inc/tm4c123gh6pm.h": No such file or directory
+  #include "../inc/tm4c123gh6pm.h"
+Timer0.c: 0 warnings, 1 error
 compiling I2C3.c...
+I2C3.c(39): error:  #5: cannot open source input file "../inc/I2C3.h": No such file or directory
+  #include "../inc/I2C3.h"
+I2C3.c: 0 warnings, 1 error
+compiling 319k-Lab-10-Jacob-Grayson...
+Error: C4065E: type of input file 'C:\Users\Grayson Drinkard\Documents\GitHub\319k-Lab-10-Jacob-Grayson' unknown
+compiling Timer1.c...
+Timer1.c(26): error:  #5: cannot open source input file "../inc/tm4c123gh6pm.h": No such file or directory
+  #include "../inc/tm4c123gh6pm.h"
+Timer1.c: 0 warnings, 1 error
+compiling ADC.c...
+ADC.c(8): error:  #5: cannot open source input file "../inc/tm4c123gh6pm.h": No such file or directory
+  #include "../inc/tm4c123gh6pm.h"
+ADC.c: 0 warnings, 1 error
+compiling DAC.c...
+DAC.c(13): error:  #5: cannot open source input file "../inc/tm4c123gh6pm.h": No such file or directory
+  #include "../inc/tm4c123gh6pm.h"
+DAC.c: 0 warnings, 1 error
 compiling Switch.c...
+Switch.c(12): error:  #5: cannot open source input file "../inc/tm4c123gh6pm.h": No such file or directory
+  #include "../inc/tm4c123gh6pm.h"
+Switch.c: 0 warnings, 1 error
+compiling SSD1306.c...
+SSD1306.c(52): error:  #5: cannot open source input file "../inc/CortexM.h": No such file or directory
+  #include "../inc/CortexM.h"
+SSD1306.c: 0 warnings, 1 error
 compiling TExaS.c...
-linking...
-Program Size: Code=3646 RO-data=25106 RW-data=84 ZI-data=2148  
-".\Lab10.axf" - 0 Error(s), 0 Warning(s).
+TExaS.c(28): error:  #5: cannot open source input file "../inc/tm4c123gh6pm.h": No such file or directory
+  #include "../inc/tm4c123gh6pm.h"
+TExaS.c: 0 warnings, 1 error
+compiling Lab10.c...
+Lab10.c(60): error:  #5: cannot open source input file "../inc/tm4c123gh6pm.h": No such file or directory
+  #include "../inc/tm4c123gh6pm.h"
+Lab10.c: 0 warnings, 1 error
+".\Lab10.axf" - 10 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -60,13 +82,14 @@ Package Vendor: Keil
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_Lab10
-  C:\Users\Jake\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
-  C:\Users\Jake\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+  C:\Users\Grayson Drinkard\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\Grayson Drinkard\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
 
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.4.0
-Build Time Elapsed:  00:00:02
+Target not created.
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>
