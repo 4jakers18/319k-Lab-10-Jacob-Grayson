@@ -1,7 +1,7 @@
 .\lab10.o: Lab10.c
 .\lab10.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\lab10.o: ../inc/tm4c123gh6pm.h
-.\lab10.o: ../inc/CortexM.h
+.\lab10.o: ..\../inc/tm4c123gh6pm.h
+.\lab10.o: ..\../inc/CortexM.h
 .\lab10.o: SSD1306.h
 .\lab10.o: Print.h
 .\lab10.o: Random.h
