@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Amongus_data" version="1.3.0" audacityversion="2.4.2" sel0="20.4819791667" sel1="20.4819791667" vpos="0" h="0.0000000000" zoom="20.7987628322" rate="11000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="COMMENTS" value="https://www.youtube.com/watch?v=grd-K33tOSM"/>
+		<tag name="TITLE" value="Among Us Drip Theme Song Original (Among Us Trap Remix / Amogus Meme Music)"/>
+		<tag name="ARTIST" value="Leonz"/>
+		<tag name="Software" value="Lavf58.29.100"/>
+		<tag name="YEAR" value="20201007"/>
+	</tags>
+	<wavetrack name="Amongus" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="983135">
+				<waveblock start="0">
+					<simpleblockfile filename="e080877e.au" len="262144" min="-0.827621" max="0.872406" rms="0.129631"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0808f45.au" len="262144" min="-0.899994" max="0.830292" rms="0.132749"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0808ff2.au" len="262144" min="-0.917877" max="0.845779" rms="0.172711"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e080877b.au" len="196703" min="-0.847946" max="0.93483" rms="0.190725"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

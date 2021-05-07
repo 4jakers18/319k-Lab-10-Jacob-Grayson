@@ -5,10 +5,10 @@
 <h2>Tool Versions:</h2>
 IDE-Version: µVision V5.33.0.0
 Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: Jacob Tomczeszyn, N/A, LIC=----
+License Information: Jacob Tomczeszyn, N/A, LIC=Q7GKM-GXCAS-IVEXX-06IK6-YXSRG-4LU7E
  
 Tool Versions:
-Toolchain:       MDK-Lite  Version: 5.33.0.0
+Toolchain:       MDK-ARM Professional  Version: 5.33.0.0
 Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
 C Compiler:      Armcc.exe V5.06 update 7 (build 960)
 Assembler:       Armasm.exe V5.06 update 7 (build 960)
@@ -22,28 +22,26 @@ Dialog DLL:      TCM.DLL V1.48.0.0
  
 <h2>Project:</h2>
 C:\Keil_v5\EE319KwareSpring2021\Lab10_EE319K\319k-Lab-10-Jacob-Grayson\Lab10.uvprojx
-Project File Date:  05/02/2021
+Project File Date:  05/03/2021
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Rebuild target 'Lab10'
-assembling random.s...
-assembling startup.s...
-compiling CortexM.c...
+Build target 'Lab10'
 compiling Lab10.c...
-compiling DAC.c...
-compiling ADC.c...
-compiling Timer0.c...
-compiling Timer1.c...
-compiling Sound.c...
-assembling Print.s...
-compiling SSD1306.c...
-compiling I2C3.c...
-compiling Switch.c...
-compiling TExaS.c...
+Lab10.c(407): warning:  #223-D: function "gameplay" declared implicitly
+  gameplay();}
+Lab10.c(410): warning:  #940-D: missing return statement at end of non-void function "roundscreen" 
+  }
+Lab10.c(603): warning:  #223-D: function "gameplay" declared implicitly
+  gameplay();}
+Lab10.c(449): warning:  #550-D: variable "CPUTeam"  was set but never used
+  int main(void){ uint16_t CPUTeam;
+Lab10.c(914): warning:  #111-D: statement is unreachable
+  turn = 0;					
+Lab10.c: 5 warnings, 0 errors
 linking...
-Program Size: Code=3646 RO-data=25106 RW-data=84 ZI-data=2148  
-".\Lab10.axf" - 0 Error(s), 0 Warning(s).
+Program Size: Code=8708 RO-data=48144 RW-data=160 ZI-data=2232  
+".\Lab10.axf" - 0 Error(s), 5 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -66,7 +64,7 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.4.0
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

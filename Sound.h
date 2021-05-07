@@ -21,8 +21,9 @@ void Sound_Init(void);
 // Output: none
 // special cases: as you wish to implement
 void Sound_Play(const uint8_t *pt, uint32_t count);
-
-
+void Sound_PlayerDrop(void);
+void Sound_CPUDrop(void);
+	
 #endif
 
 
